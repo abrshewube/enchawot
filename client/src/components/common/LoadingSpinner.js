@@ -11,6 +11,7 @@ const LoadingSpinner = ({ size = 'medium', text = 'Loading...' }) => {
     <div className="flex flex-col items-center justify-center p-8">
       <div className={`loading-spinner ${sizeClasses[size]}`}></div>
       {text && <p className="mt-2 text-gray-600 text-sm">{text}</p>}
+      }
     </div>
   );
 };
